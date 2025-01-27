@@ -16,7 +16,7 @@ jobs:
       # This was yarn v1 only and yarn v3 fails to run
       - run: unset YARN_PRODUCTION
 
-      - uses: actions/setup-node@2fddd8803e2f5c9604345a0b591c3020ee971a93
+      - uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a
         with:
           node-version: 16
           registry-url: 'https://registry.npmjs.org'
